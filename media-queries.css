@@ -1,0 +1,60 @@
+@media screen and (max-width: 1079px) {
+    .container{
+        max-width: 980px;
+        overflow: hidden;
+        margin-inline: auto;
+    }
+    .card-container{
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+    .card{
+        width: 45%;
+    }
+}
+
+
+
+@media  screen and (max-width: 767px) {
+
+    .container{
+        max-width: 680px;
+        margin-inline: auto;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+
+    .card-container{
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+    }
+    .card{
+        width: auto;
+    }
+}
+@media screen and (max-width: 618px) {
+
+    .container{
+        max-width: 550px;
+        margin-inline: auto;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+    .nav-links ul{
+        display: none;i
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .container{
+        max-width: 350px;
+        margin-inline: auto;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+    .search-bar{
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+}
